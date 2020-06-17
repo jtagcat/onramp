@@ -1,28 +1,29 @@
-<!DOCTYPE html>
+---
+permalink: /linux/
+---
+
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>The Firefox Onramp - Start Hacking Now</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css" media="screen">
-   <link rel="stylesheet" type="text/css" href="css/sandstone-resp.css" media="screen">
-      <link rel="stylesheet" type="text/css" href="css/tabzilla.css" media="screen">
+    <title>The Firefox Onramp - Start Hacking Now!</title>
+    <link rel="stylesheet" type="text/css" href="/css/index.css" media="screen">
+   <link rel="stylesheet" type="text/css" href="/css/sandstone-resp.css" media="screen">
+      <link rel="stylesheet" type="text/css" href="/css/tabzilla.css" media="screen">
   <body class="stone">
       <div id="wrapper">
         <header id="masthead">
             <div id="tabzilla">
                    <a href="https://www.mozilla.org/">Mozilla</a>
             </div> 
-            <h2><a href="https://mozilla.org"><img src="img/header-mozilla-stone.png" alt="mozilla"></a></h2>
+            <h2><a href="https://mozilla.org"><img src="/img/header-mozilla-stone.png" alt="mozilla"></a></h2>
         </header></div> 
 <article>
   <section id="intro">
     <div class="container">
       <h1 class="heading-primary">Firefox Onramp</h1>
-      <h2 class="heading-primary">Building Firefox on Linux</h3>
-      <h2 class="heading-tertiary">
-        Help us keep the web free and open for the people using world’s most popular free, open OS.
-      </h2>
+      <h2 class="heading-primary">Building Firefox on Linux</h2>
+      <h2 class="heading-tertiary">Help us keep the web free and open for the people using world’s most popular free, open OS.</h2>
     </div>
   </section>
   <section id="step1">
@@ -52,18 +53,21 @@
     </div>
   </section>
 
- <section id="step3">
+<section id="step3">
     <div class="container">
-          <h3 class="heading-tertiary">Getting Access</h3>
-          <p>That last step can take some time. While it’s running, take a moment to sign into Bugzilla.</p>  
-          <p><a href="https://bugzilla.mozilla.org/">Bugzilla.mozilla.org</a> is Mozilla’s issue tracker.
-             To comment on a bug or submit a patch you’ll need a Bugzilla account. You can either use your <a href="https://github.com">GitHub account</a>,
-             or you can <a target="_blank" href="https://bugzilla.mozilla.org/createaccount.cgi">sign up for a Bugzilla account here.</a></p>
-          <p>As well as Bugzilla, much of Mozilla’s internal communication happens over IRC.
-             You can <a href="http://limechat.net/mac/">download Limechat here</a>, and learn how to <a href="https://wiki.mozilla.org/IRC">connect to Mozilla with IRC here</a>.
-             If you’re just getting started or have questions about getting set up you can join us in the #introduction channel, where some of our community members hang out to try and help new contributors get rolling.</p>     
+        <h3 class="heading-tertiary">Getting Connected</h3>
+        <p>That last step can take some time. While it’s running, take a moment to sign into Bugzilla.</p>
+        <p><a href="https://bugzilla.mozilla.org/">Bugzilla.mozilla.org</a> is Mozilla’s issue tracker.
+            To comment on a bug, or submit a patch you’ll need a Bugzilla account. You can either use your <a
+                href="https://github.com">GitHub</a> account,
+            or <a target="_blank" href="https://bugzilla.mozilla.org/createaccount.cgi">sign up for a Bugzilla
+                account here.</a></p>
+        <p>As well as Bugzilla, much of Mozilla’s internal communication happens over Matrix.<br>
+            You may access Matrix using <a href="https://chat.mozilla.org" target="_blank">Mozilla's Riot instance</a> via your browser, or via the <a href="https://about.riot.im/" target="_blank">Riot app</a>.
+            If you’re just getting started, or have questions about getting set up, you can join us in the <a href="https://matrix.to/#/#introduction:mozilla.org" target="_blank">#introduction:mozilla.org</a>
+            channel, where some of our community members hang out to try and help new contributors get rolling.</p>
     </div>
-  </section>
+</section>
 
   <section id="step4">
     <div class="container">
@@ -128,7 +132,7 @@
       <footer id="colophon">
         <div class="row">
           <div class="footer-logo">
-            <a href="http://mozilla.org/"><img src="img/footer-mozilla.png" alt="mozilla"></a>
+            <a href="http://mozilla.org/"><img src="/img/footer-mozilla.png" alt="mozilla"></a>
           </div>
 
           <div class="footer-license">
